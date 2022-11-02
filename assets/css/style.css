@@ -1,4 +1,3 @@
-html, 
 body {
     margin: 0;
     padding: 0;
@@ -21,7 +20,6 @@ h1 {
     padding: 25px;
 }
 
-/* Controls and Message Styles */
 .controls {
     padding: 20px;
     border: 1px solid black;
@@ -39,13 +37,11 @@ button {
     border-radius: 10px;
 }
 
-#flip,
-#roll {
+#flip {
     background: linear-gradient(to bottom left, lightblue, white);
 }
 
-#flip:hover,
-#roll:hover {
+#flip:hover {
     background: linear-gradient(to bottom left, darkblue, lightblue);
 }
 
@@ -57,7 +53,6 @@ button {
     background: linear-gradient(to bottom left, red, orange);
 }
 
-/* Scoreboard Styles */
 table, 
 th, 
 td {
